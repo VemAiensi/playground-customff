@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": ".#####",
+ "creation": "2026-08-18 14:10:48.620288",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "primary_section",
+  "first_name",
+  "last_name",
+  "suffix",
+  "column_break_btyl",
+  "middle_name",
+  "husbands_name",
+  "full_name_lfm",
+  "full_name_fml",
+  "section_break_vgrv",
+  "skill_set"
+ ],
+ "fields": [
+  {
+   "fieldname": "primary_section",
+   "fieldtype": "Section Break",
+   "label": "Name"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "husbands_name",
+   "fieldtype": "Data",
+   "label": "Husband's Name"
+  },
+  {
+   "fieldname": "suffix",
+   "fieldtype": "Select",
+   "label": "Suffix",
+   "options": "\nJr.\nSr.\nIII\nIV\nV\nVI\nVII\nVIII\nVIIII\nIX\nX"
+  },
+  {
+   "fieldname": "column_break_btyl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name_lfm",
+   "fieldtype": "Data",
+   "label": "Full Name (LFM)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "full_name_fml",
+   "fieldtype": "Data",
+   "label": "Full Name (FML)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_vgrv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "skill_set",
+   "fieldtype": "Table",
+   "label": "Skill Set",
+   "options": "Skill"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-21 14:18:54.940386",
+ "modified_by": "Administrator",
+ "module": "Playground",
+ "name": "Profile",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "full_name_fml",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name_fml",
+ "track_changes": 1
+}
