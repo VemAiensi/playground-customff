@@ -1,0 +1,20 @@
+{
+ "app": "playground",
+ "bg_color": "gray",
+ "creation": "2026-09-25 15:13:58.149679",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Playground",
+ "link_to": "Playground",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-09-25 15:14:31.915534",
+ "modified_by": "Administrator",
+ "name": "Playground",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}
